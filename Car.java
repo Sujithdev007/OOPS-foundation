@@ -1,3 +1,4 @@
+// Interitance
 public class Car extends Vechile{
 
     private int wheels = 2;
@@ -5,9 +6,9 @@ public class Car extends Vechile{
     public int carMillage;
     public String carmodel;
 
-
+    // Paramterised Constructor
     public  Car(int maxSpeed, String carCompany, String carmodel, int millage){
-         super(maxSpeed);
+         super(maxSpeed); // inorder to acess the parent class constructor
        
         this.carCompany = carCompany;
         this.carMillage = millage;
@@ -20,8 +21,15 @@ public class Car extends Vechile{
 
     }
 
+    // class methods which overides parents method (Polymorphism)
     public void print(){
         System.out.println("Hello this is car's Print");
+    }
+
+    @Override
+    public boolean motorized() {
+        // TODO Auto-generated method stub
+        return true;
     }
     
 }
