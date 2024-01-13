@@ -6,6 +6,8 @@ public class Main {
 
         Vechile v = new Vechile();
         v.country();
+        Car C = new Car(300, "Hyundai", "Verna", 30);
+    
 
     }
 }
