@@ -25,6 +25,12 @@ public class PairUse {
 
         Pair<Dev> d = new Pair<Dev>(new Dev(), new Dev());
           System.out.println(d.getFirst()+ " "+ d.getsecond());
+
+
+        // multiple types
+        PairV2<String, Integer> V2  = new PairV2<String,Integer>("Sujith", 10); 
+        System.out.println(V2.getFirst()+" "+ V2.getsecond());
+
           
         
     }
