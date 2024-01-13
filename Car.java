@@ -19,5 +19,9 @@ public class Car extends Vechile{
 
 
     }
+
+    public void print(){
+        System.out.println("Hello this is car's Print");
+    }
     
 }

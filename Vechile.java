@@ -14,7 +14,7 @@ class Vechile {
 
     }
 
-    public void country (){
+    public void print (){
         System.out.println("India");
     }
 
