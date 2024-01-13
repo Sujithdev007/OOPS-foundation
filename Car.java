@@ -1,5 +1,5 @@
 // Interitance
-public class Car extends Vechile{
+public abstract class Car extends Vechile{
 
     private int wheels = 2;
     public String carCompany;

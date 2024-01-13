@@ -21,6 +21,7 @@ public abstract class  Vechile {
     public abstract boolean motorized ();
     // which abstract is used i dont the body of the method later child class let modify it
 
+    public abstract String getCompanydetails();
 
 
 }

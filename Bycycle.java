@@ -1,6 +1,6 @@
 
 
-public class Bycycle extends Vechile{
+public abstract class Bycycle extends Vechile{
 
     public String gearType;
     public String cycleCompany;
