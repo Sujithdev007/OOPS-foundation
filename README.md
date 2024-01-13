@@ -13,6 +13,7 @@ an cannot be overriden
 
 
 # Abstract 
+abstract class is combination of abstract and non-abstract class
 
 the use of Abstract is to maintain a methods body to used later part of the class which gets interits 
 
@@ -24,3 +25,9 @@ Vechile V = new Vechile(); this is not fine actually because its incomplete clas
 # Note -> Child class of abstract class is also incomplete because of the parent abstract class   
 # either complete the incomplete the thing or else make the child class as abstract so now u are unble 
 # to create objects for this class also 
+
+
+# INTERFACE 
+
+interfaces are pure abstract class not combination of both
+we cannot extend the class as like normal class instead need to implement
