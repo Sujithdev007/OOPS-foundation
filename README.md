@@ -30,4 +30,11 @@ Vechile V = new Vechile(); this is not fine actually because its incomplete clas
 # INTERFACE 
 
 interfaces are pure abstract class not combination of both
+
 we cannot extend the class as like normal class instead need to implement
+
+only the class which staisfs the interface remaining methods will gets polymorphism applied
+
+# NOTE :Class can be implement one or more interface 
+# but 
+# class can be extend only one class (multilevel inheritance is accepeted but multi inheritance not allowed)

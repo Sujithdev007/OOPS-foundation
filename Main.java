@@ -15,11 +15,16 @@ public class Main {
         Benz BZ = new Benz(300, "Benz", "Verna", 30);
        System.out.println(BZ.getCompanydetails()); 
 
-       // interface
-       Bike B = new Bike("yamaha", 1998, "rx-100");
-       BikeInterface B1;
-       B1 = new Bike("yamaha", 1998, "rx-100");
-       System.out.println(B1.companyDetails());
+       // normal -interface
+    //  Bike B = new Bike("yamaha", 1998, "rx-100");
+        BikeInterface B1;
+    //    B1 = new Bike("yamaha", 1998, "rx-100");
+    //    System.out.println(B1.companyDetails());
+
+    // interface with inheritance;
+
+    B1 = new BIKEupdated("royal enfield", 1990, "bullet");
+    B1.companyDetails();
 
 
     }
