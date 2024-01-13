@@ -38,3 +38,28 @@ only the class which staisfs the interface remaining methods will gets polymorph
 # NOTE :Class can be implement one or more interface 
 # but 
 # class can be extend only one class (multilevel inheritance is accepeted but multi inheritance not allowed)
+
+
+
+# Genrics
+
+  # structurly both class are same only types changes (two parameters, different types) 
+  Pair p = new Pair(1, 4)
+        for only creating types we need to create a class ?
+  PairString ps = PairString("aa", "bb"); 
+  # string instead int
+ PairDouble pd = PairDouble(1.34, 3.45);
+ # double instead int
+
+ 
+
+ # HERE GENRICS COMES TO PLAY JUST BY ADDING ANGULAR BRACKETS TO THE CLASS NAME <T> ITS DONE NOW ITS A TYPE
+
+  # NOTE: not only normal types we can send our own class itself 
+
+  if we didnot mention the type , bydefault it takes type as OBJECT the super class
+   Pair p = new Pair(09, 41)
+   p.setFirst("aa");
+   p.setSeconf(87);
+   # No use refering THE OBJECT
+  
