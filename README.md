@@ -67,4 +67,6 @@ only the class which staisfs the interface remaining methods will gets polymorph
  PairV2<String, Integer> V2  = new PairV2<String,Integer>("Sujith", 10); 
 
  # default value for non primitive is null
+
+ # method-genrics is also possible 
   
